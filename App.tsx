@@ -16,5 +16,8 @@ return <div>
   <input placdeholder= 'search' onChange = {(e)} = > setSearch(e.taregt.value)} />
   {filtered.mao((e.any) => (
   <div key={e.id}>
-    <h3></h3>
+    <h3>{e.name</h3>
+      <p>{e.department}</p>
+  </div>
 </div>
+export default App;
